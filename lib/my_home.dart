@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:practice_riverpod/multiple_state.dart';
 import 'package:practice_riverpod/simple_provider.dart';
 import 'package:practice_riverpod/state_provider.dart';
 
@@ -17,7 +18,8 @@ class MyHome extends StatelessWidget {
             // SimpleProviderStateLess(),
             // SimpleProviderStateFull(),
             // StateProviderStateless(),
-            StateProviderStatefull(),
+            // StateProviderStatefull(),
+            MultipleState(),
           ],
         ),
       ),

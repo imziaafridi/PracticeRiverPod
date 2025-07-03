@@ -45,6 +45,18 @@ final switchState = StateProvider<bool>((ref) => false);
 //         ),
 //       ],
 //     ),
+// Consumer(
+//     builder: (context, ref, child) {
+//       final val = ref.watch(switchState);
+//       return Switch(
+//         value: val,
+//         onChanged: (val) {
+//           ref.read(switchState.notifier).state = val;
+//           debugPrint('SWITCH STATE: ${ref.watch(switchState)}');
+//         },
+//       );
+//     },
+//   ),
 //   ],
 // );
 //   }
@@ -117,8 +129,5 @@ class _StateProviderStatefullState
         ),
       ],
     );
-    ;
   }
 }
-
-///dfd,f df,

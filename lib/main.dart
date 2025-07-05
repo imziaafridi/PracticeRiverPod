@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:practice_riverpod/favourite/fav_view.dart';
 import 'package:practice_riverpod/my_home.dart';
 import 'package:practice_riverpod/todo/item_view.dart';
 
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         ),
-        home: const ItemView(),
+        home: const FavView(),
+        // const ItemView(),
         // const MyHome()
       ),
     );

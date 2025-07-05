@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:practice_riverpod/multiple_state.dart';
+import 'package:practice_riverpod/search_notifer/search_view.dart';
 import 'package:practice_riverpod/simple_provider.dart';
 import 'package:practice_riverpod/state_provider.dart';
+import 'package:practice_riverpod/todo/item_view.dart';
 
 class MyHome extends StatelessWidget {
   const MyHome({super.key});
@@ -19,7 +21,9 @@ class MyHome extends StatelessWidget {
             // SimpleProviderStateFull(),
             // StateProviderStateless(),
             // StateProviderStatefull(),
-            MultipleState(),
+            // MultipleState(),
+            // SearchView(),
+            // ItemView(),
           ],
         ),
       ),
